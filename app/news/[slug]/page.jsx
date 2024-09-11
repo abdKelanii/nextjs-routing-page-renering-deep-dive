@@ -7,7 +7,7 @@ const page = ({ params }) => {
   const newsItem = DUMMY_NEWS.find((news) => news.slug === newsSlug);
 
   return (
-    <article>
+    <article className="news-article">
       <header>
         <Image
           src={`/images/news/${newsItem.image}`}
