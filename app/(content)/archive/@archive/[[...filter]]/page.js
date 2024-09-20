@@ -5,8 +5,8 @@ import {
   getAvailableNewsYears,
   getNewsForYear,
   getNewsForYearAndMonth,
-} from "../../../../lib/news";
-import NewsList from "../../../../components/news-list";
+} from "../../../../../lib/news";
+import NewsList from "../../../../../components/news-list";
 
 const FilteredNewsPage = ({ params }) => {
   const filter = params.filter;

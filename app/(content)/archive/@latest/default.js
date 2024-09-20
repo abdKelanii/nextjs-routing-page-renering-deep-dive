@@ -1,6 +1,6 @@
 import React from "react";
-import { getLatestNews } from "../../../lib/news"
-import NewsList from "../../../components/news-list";
+import { getLatestNews } from "../../../../lib/news"
+import NewsList from "../../../../components/news-list"
 
 const Latest = () => {
   const latestNews = getLatestNews();

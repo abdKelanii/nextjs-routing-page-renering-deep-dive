@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { DUMMY_NEWS } from "../../../dummy-news";
+import { DUMMY_NEWS } from "../../../../dummy-news";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 

@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { DUMMY_NEWS } from "../../../../../dummy-news";
+import { DUMMY_NEWS } from "../../../../../../dummy-news";
 import { useRouter } from "next/navigation";
 
 const Image = ({ params }) => {
