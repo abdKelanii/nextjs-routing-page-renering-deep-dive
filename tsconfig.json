@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "app/news/page.js"  ],
+, "app/news/page.js", "components/main-header.js"  ],
   "exclude": [
     "node_modules"
   ]
